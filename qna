@@ -1,0 +1,23 @@
+Chapter 1: What is JavaScript? 
+1. What can computers do? 
+Computers can only do exactly what we humans tell them to do.
+2. What are computer programs? 
+We tell computers how to behave using computer programs. The program is just a set of instructions for the computer to follow. 
+3. What is the JavaScript programming language used for? 
+The JavaScript programming language is used to write programs and this programs run in the web pages.
+4. What does JavaScript control in the webpage? 
+Javascript can control how a web page looks or make the page respond when a viewer clicks a button or moves the mouse. 
+5. What is the Javascript interpreter and where can you find it? 
+The Javascipt interpreter comes in every browser and it unders how to read JavaScript programs. 
+6. What are the hotkeys to get to the JavaScript console on a MAC OS? 
+On MAC OS, hold down the command and option keys and press J.
+7. What does it mean to execute? 
+When you enter code at the cursor and press enter, JavaScript should run or execute your code and display the results if any on the next line. 
+8. What is syntax?
+Javascript syntax is the rules for how to combine symbols and words to create working programs. 
+9. What are some symbols used in JavaScript syntax? 
+Some o the symbols include parenthesis, semicolon, curly brackets, plus signs, words like var or console.log
+10. What is a comment in Javascript? 
+Programmers use comments to make it easier for other programmers to read and understand their code. The computer ignores comments completely. Comments in JavaScript start with two forward slashes and everything that follows is ignored. 
+11. How do you write a multiline comment in javascript? 
+To write a multiline comment in Javascript you use /* and */

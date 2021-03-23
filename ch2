@@ -1,1 +1,158 @@
+Chapter 2 🤪
+Datatypes and Variables 
+1. What is data? 
+Data is information that we store in our computer programs. For example, your name is a piece of data and so is your age.
+2. What are numbers used for representing?
+Numbers represent numbers.For example like 0 or 99.
+3. What are strings used to represent? 
+Strings  are used to represent text. Your name can be represented as a string in Javascript, as can your email address. It is represented in quotes like “Hi, I’m a string”; 
+4. What are Booleans? 
+Booleans are values that  are true or false. A boolean value about you would be whether you wear glasses. 
+5. What are some different ways to work with each data type? 
+For example you can multiply two numbers, but you can’t multiply two strings. With a string you can ask for the first five characters. With Booleans, you can check to see whether two values are both true.
+6. What is the semicolon used for? 
+Semicolons mark the end of a particular JavaScript command or instruction (also called a statement), sort of like the period at the end of a sentence.  
+7. Can you perform basic mathematical operations?
+Yes you can perform basic mathematical operations like addition, subtraction, multiplication and division. 
+8. What are the addition, subtraction, multiplication, and division symbols called in Javascript? 
+They are referred to operators +, -, *, /
+9. Can you use the Javascript console like a calculator? 
+Yes you can. 
+10. Does javascript follow the same rules as PEMDAS in math? 
+Yes it does, multiplication and division always takes place before addition or subtraction and you can use the parenthesis to do certain parts first. 
+11. What is a variable? 
+Javascript lets you give names to values using variables. You can think of a variable as a box that you can fit one thing in. If you put something else in it, the first thing goes away. 
+12. How do you create a new variable? 
+You can use the keyword var followed by the name of the variable. 
+13. What is a keyword? 
+A keyword is a word that has special meaning in Javascript. Var is a keyword and short for variable. Another keyword is “this”
+14. What’s a return value? 
+Whenever a command is inputted into JS, whatever comes back in the interpreter even if it isundefined is called a return value. 
+15. How do you give the variable a value? 
+Use the equal sign
+16. What is an assignment? 
+Setting a value is called assignment. 
+17. Is the value of the variable set in stone? 
+No it is not. They’re called variables because they vary and if you want to update it, just user = again. 
+18. When is it appropriate to use var? 
+You only need to use var when you want to create a variable, not when you want to change the value of a variable. 
+19. What is camel casing? 
+Camel casing is the practice of naming variables in the camel hump way, so the first letter of the variable is lowercase but the first letter of each corresponding word after is capitalized and there is no spaces example: camelCasing.
+20. How can you create new variables? 
+You can create new variables by doing some math on older ones like finding out how many seconds in a day by first finding how seconds in an hour and assigning variables to each value to then do math to find out. 
+21. What does increasing by 1 called? 
+It is called incrementing
+22. What does decreasing by 1 called? 
+It is called decrementing. 
+23. What are the operators for incrementing and decrementing, respectively? 
+the operators for incrementing is ++ and decrementing is  - -
+24. What is another and easier way to increase or decrease a variable by a certain amount? 
+Javascript gives you an easier way of increasing or decreasing a variable by a certain amount with the += and -= operators… for example x +=5 is the same as x = x +5 and x-=9 is the same as x = x - 9. 
+25. What does *= and /= mean? *= means x = x*9 and /= mens x = x/2. (examples)
+26. What are strings mostly composed of just like in other programming languages? 
+Strings in Javascript are just sequences of characters which can include letters, numbers, punctuation and spaces. We put strings between quotes so JS knows where they start and end. 
+27. Can you use single or double quotes for strings? 
+You can use either one, but pick one style and stick to it. 
+28. Can you save strings into variables? 
+Yes you can save strings into variables just like numbers. 
+29. Can you assign a string to a variable that previously contained a number? 
+Yes you can do that, there is nothing stopping you. 
+30. What if you put a number between quotes? Is that a string or a number? 
+In JavaScript, a string is a string (even if it happens to have some characters that are numbers). Example: numberNine +numberNine; //18 ….. stringNine + stringNine; // “99”
+31. What happens when you use the + to join two strings? 
+When you use the plus sign to join two strings, you make new string with the second string attached to the end of the first string like this 
+var greeting = “Hello”;
+var myName = “Nick”;
+greeting  + myName;
+“HelloNick”
+32. Does Javascript put a space between strings? 
+No Javascript wont put a space between strings unless we specifically tell it to by adding a space in one of the original strings. Putting the extra spaces between the quotes in your strings will help to keep the sentence structure in the return value.
+33. How do you get the length of the string? 
+To get the length of a string, just add .length to the end of it. 
+34. When can you .length at the end? Like how do you use it? 
+You can add .length to the end of the actual string or to a variable that contains a string: 
+var java = “Java”;
+java.length;
+4
+35. What’s significant about variables containing a number or a string? 
+Anywhere you can use a number or a string, you can also use a variable containing a number or string.
+36. How to get a single character from a string? 
+To get a character from a particular position in a string, use square brackets []. Just take the string or the variable containing the string, and put the number of the character you want in a pair of square brackets at the end. For example: to get the first character of myName, use myName[0]
+Var myName = “Nick”;
+myName[0];
+“N’
+myName[1];
+“I”
+myName[2];
+“c”
+37. In Javascript when do you start counting? 
+Like many other programming languages, counting starts at zero so that means the first character of the string is in position zero rather than 1. 
+38. How do you “cut off” a piece of a big string? 
+You can use slice to “cut off” a piece of a  big string. For example, you might want to grab the first bit of a long movie review to show as a teaser on your website. To use slice, put a period after a spring (or a variable containing a string), followed by the word slice and opening and closing parenthesis. 
+“a string”.slice(1,5); <= so this means that it will start at position 2 and end just before the 6th position. The first number is the first position of the character that begins the slice and the second number is the character AFTER the last character in the slice.
+39. What happens if you only include one number in the parenthesis of a slice like “a string”.slice(2); ? 
+If you include only one number in the parenthesis after the slice, the string that it slices will start from that number and continue all the way to the end of the string .. so from the example you would get “ring”
+40. How to change text that you just want to shout or capitalize? 
+If you have some text that you just want to shout, try using .toUpperCase(); to turn it all into capital letters. 
+For example: 
+“Hello there, how are you doing?”.toUpperCase();
+“HELLO THERE, HOW ARE YOU DOING?”
+41. How to change text that you just want to lowercase instead of capitalize? If you would do just the opposite which is .toLowerCase(); then it will turn all the letter into lowercase letters. 
+For example: 
+“HELLO THERE, HOW ARE YOU DOING?”.toLowerCase();
+“hello there, how are you doing?”
+42. What is a Boolean? 
+A Boolean value is simply a value that’s either true or false. 
+43. Can you combine Boolean values with Boolean operators? 
+Just as you can combine numbers with mathematical operators, you can combine Boolean values with Boolean operators. When you combine Boolean values with Boolean operators, the result will always be another Boolean value (either true or false). 
+44. What are the three main Boolean operators in JavaScript? 
+The three main Boolean operators in JavaScript are && (AND, called and-and sometimes), || (OR, called pipes sometimes), and ! (NO, called a bang sometimes).
+45. How do you use && Boolean operator? 
+You can use && operator with two Boolean values to see if they are both true. 
+46. How do you use || Boolean operator? 
+The Boolean operator || means “or” ad it can be pronounced or or referred to as pipes. You can use this operator with two Boolean values to find out whether either one is true. 
+47. How do you use the “!” exclamation point (or bang as some others call it)? 
+The exclamation point means “not” you use it to turn false into true and true into false. This is useful for working with values that are opposites. (In the example below, the bang converts the value in isWeekend to its opposite.)
+For example: 
+var isWeekend = true;
+var needToShowerToday = !isWeekend;
+needToShowerToday;
+false  //just remember it makes it opposite! 
+48. Can you tell me more about PEMDAS rules in Javascript specifically for Boolean operators? 
+Just like javaScript calculates * before + with numbers, it also calculates && before || in logical statements. 
+49. How to compare numbers with Booleans? 
+Boolean values can be used to answer questions about numbers that have a simple yes and no answer. For example, imagine you’re running a theme park and one of the rides has a height restriction: riders must be at least 0 inches tall, or they might fall out. When someone wants to go on the ride and tells you their height, you need to know if it's greater than this height restriction. 
+50. How can you use the > (greater than) operator? 
+You can use the greater than operator to see if one number is greater than another. 
+51. What does >= mean? 
+This symbol is “the greater than or equal to” operator.
+52. How can you use the < (less than) operator? 
+You can use the less than operator to see if one number is less than another. 
+53. What does <= mean? This symbol is the “less than or equal to” operator. 
+54. How do you find if two numbers are exactly the same? To find out if two numbers are exactly the same, use the triple equal sign (===) which means “equal to”. 
+55. What is the difference between single equal (=) and triple equal (===) and what are they asking/saying of each? Please do not confuse it with the single equal (=) sign which triple equal(===) is asking “are those two numbers equal?” and the single equal is saying “save the value on the right in the variable on the left.”  Triple equal (===) will ASK a question of equality whilst single equal (=)  ASSIGNS a value to a variable. 
+56. How do you get true when comparing two numbers using triple equal (===)? 
+When you compare two numbers with triple equal (===), you get true only when both numbers are the same. 
+57. What other ways can you use triple equal (===) in comparison? 
+You can also use === to compare two strings or two Booleans. If you use === to compare two different types - for example a string and a number - it will always return false.
+58. What is the Javascript operator of ==? 
+The double equals (==) means “equalish”. You use this to see whether two values are the same, even if one is a string and the other is a number. All values have some kind of type so the number 5 is different than the string “5” even though they are basically looking the same.This means that if you use triple equal to compare number 5 to string “5’ JavaScript will tell you they’re not equal, but if you use double equal == to compare them, it will tell you they are the same. 
+59. Why do you have to be careful to use double equal? 
+You have to be careful when using double equals == because in Javascript, it tries to compare two values with double equals, it first tries to make them the same type. 
+60. What are “undefined” and “null” used to mean? 
+They are both used to mean nothing but used in different ways…
+61. What does “undefined” give you? 
+Undefined is the value JavaScript uses when it doesn’t have a value for something, for example when you create a new variable, if you don’t set its value to anything using the = operator, its value will be set to undefined. 
+62. When is it appropriate to use null value? 
+The null value is usually used when you want to deliberately say ‘this is empty.” Null is used only when you want to ACTUALLY say nothing is there. An example of this would be: say you're using a variable to track wheat your favorite vegetable is. If you hate  all vegetables and don’t  have a favorite, you might set the favorite vegetable variable to null. 
+63. Tell me, what are numbers,string, Booleans, and values undefined/null used for. 
+Numbers are used for math-type things, strings are used for text, and Booleans are used for yes or no questions (true or false). The values null and undefined are there to give us a way to talk about things that don’t exist. 
+64. In Javascript, there are three types of basic data, what are they?
+Numbers, strings, and Booleans. 
+
+
+
+
+
+
 
